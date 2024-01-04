@@ -1,0 +1,61 @@
+*{
+box-sizing: border-box;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+
+}
+h1, h2, h3, h4, h5, h6{
+  padding: 1px;
+  margin: 1px;
+}
+.header{
+ 
+ display: flex;
+}
+.correct{
+ color: red;
+ font-size: 10px;
+ padding: 0px;
+ top: 0px;
+ margin: 0px 5px;
+}
+.all{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+      height: 100vh;
+    overflow-y: auto;
+}
+.form{
+   background-color: rgb(175, 125, 125);
+    max-width: 496px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 40px;
+    flex: 1;
+}
+.label-form{
+display: block;
+padding: 5px 0px;
+}
+.input{
+  width: 100%;
+  border: none;
+  outline: 1px solid black;
+  margin: 5px 0px;
+  padding: 10px 10px;
+  
+  border-radius: 10px;
+}
+.login{
+  border: none;
+  outline: 1px solid black;
+  padding: 10px 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  position: relative;
+  
+  margin: 5px;
+}
